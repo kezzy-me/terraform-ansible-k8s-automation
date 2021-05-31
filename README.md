@@ -22,9 +22,9 @@ $ pip3 install boto3 --user
 ### Terraform Installation
 
 ``` sh
-$ sudo su ansible
+$ sudo su - ansible
 $ sudo yum install wget git unzip -y
-$ wget https://releases.hashicorp.com/terraform/0.12.26/terraform_0.12.26_linux_amd64.zip
+$ wget https://releases.hashicorp.com/terraform/0.15.4/terraform_0.15.4_linux_amd64.zip
 $ sudo unzip terraform_0.12.26_linux_amd64.zip -d /usr/local/bin/
 # Export terraform binary path temporally
 $ export PATH=$PATH:/usr/local/bin
